@@ -14,6 +14,7 @@ html {
 }
 
 body {
+  font-size: 18px;
   font-family: "Helvetica", sans-serif;
   line-height: 1.4;
 }
@@ -63,7 +64,6 @@ body {
   font-family: Helvetica;
   padding: 2rem 3rem;
 }
-
 
 .headline h1 {
   font-size: 2rem;

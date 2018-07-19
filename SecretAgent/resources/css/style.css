@@ -1,0 +1,72 @@
+/* "Tamming" Box Model With Reset */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+.company {
+  background-color: black;
+  color: white;
+  font-family: "Helvetica", sans-serif;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: .66rem 0;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+/* News Banner */
+
+.news-banner {
+  height: 25rem;
+  background-image: url(../../resources/images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.headline {
+  position: relative;
+  width: 20rem;
+  color: white;
+  top: 9rem;
+  background-color: black;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding: 2rem 3rem;
+}
+
+
+.headline h1 {
+  font-size: 2rem;
+  margin: 0.25rem 0;
+  line-height: 1.2;
+}
